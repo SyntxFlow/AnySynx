@@ -116,12 +116,7 @@ class _HomePageState extends State<HomePage> {
       //     fit: BoxFit.fitHeight,
       //   ),
       // ),
-      body: Column(
-        children: [
-          _tabs[_currentIndex](),
-          SizedBox(height: 20.0),
-        ],
-      ),
+      body: _tabs[_currentIndex](),
       bottomNavigationBar: CrystalNavigationBar(
         currentIndex: _currentIndex,
         height: 10,
