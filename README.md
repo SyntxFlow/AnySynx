@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/moeru-ai/airi/blob/main/LICENSE"><img src="https://img.shields.io/github/license/moeru-ai/airi.svg?style=flat&colorA=080f12&colorB=1fa669"></a>
+  <a href="https://github.com/SyntxFlow/AnySynx/blob/main/LICENSE"><img src="https://img.shields.io/github/license/SyntxFlow/AnySynx.svg?style=flat&colorA=080f12&colorB=1fa669"></a>
   <a href="https://discord.gg/fUusrraZ"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FfUusrraZ%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=white&label=%20&color=7389D8&labelColor=6A7EC2"></a>
   <a href="https://github.com/SyntxFlow"><img src="https://img.shields.io/badge/%40SyntxFlow-black?style=flat&logo=github&labelColor=%23101419&color=%232d2e30"></a>
 </p>
