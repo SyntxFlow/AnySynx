@@ -7,12 +7,16 @@ import 'package:anysynx/features/youtube/youtube_screen.dart';
 import 'package:anysynx/features/x/x_screen.dart';
 import 'package:anysynx/features/about/about_screen.dart';
 
+// Developed Screen
+import 'package:anysynx/features/developed/developed_screen.dart';
+
 final List<Widget Function()> _tabs = [
   () => TikTokDownloaderScreen(),
   () => InstagramDownloaderScreen(),
   () => YouTubeDownloaderScreen(),
   () => XDownloaderScreen(),
   () => AboutDownloaderScreen(),
+  () => DevelopedScreen(),
 ];
 
 void main() {
@@ -22,7 +26,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -119,7 +122,6 @@ class _HomePageState extends State<HomePage> {
       body: _tabs[_currentIndex](),
       bottomNavigationBar: CrystalNavigationBar(
         currentIndex: _currentIndex,
-        height: 10,
         // indicatorColor: Colors.blue,
         unselectedItemColor: Colors.white70,
         borderWidth: 1,
